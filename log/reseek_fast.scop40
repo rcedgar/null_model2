@@ -1,0 +1,11 @@
+
+reseek v2.5.i86linux64 [aa3c1f9]
+../bin/reseek_v2.5_dbsize_bugfix -search ../big_data/scop40.cal -db ../big_data/scop40.bca -nochainchar -fast -dbsize 11211 -evalue 10 -output ../big_hits/reseek_fast.scop40 -columns query+target+evalue+dpscore+newts -log ../log/reseek_fast.scop40 
+Started Thu May 29 11:07:45 2025
+dbsize=1.12e+04
+MuFilterTsvFN=/tmp/rce.705e8985.tmp
+Post-mu 101 secs
+
+Elapsed time 02:05
+Max memory 5.6Gb
+Finished Thu May 29 11:09:50 2025

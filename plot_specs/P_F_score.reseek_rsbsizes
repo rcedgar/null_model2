@@ -1,0 +1,10 @@
+distname	P_F_score	Reseek(fast)
+axislabels	TS	P(F|TS)
+edf	reseek_rsbsize2_ts.scop40.scop40.scop40	size=2	magenta	solid
+edf	reseek_rsbsize4_ts.scop40.scop40.scop40	size=4	black	solid
+edf	reseek_rsbsize32_ts.scop40.scop40.scop40	size=32	gray	solid
+edf	reseek_rsbsize128_ts.scop40.scop40.scop40	size=128	gray	dashed
+edf	reseek_rsbsize512_ts.scop40.scop40.scop40	size=512	gray	dotted
+yrange	0	0.8	1e-2	1
+minscore	0.05
+maxscore	0.25

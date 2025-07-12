@@ -1,0 +1,12 @@
+distname	C_score_F	Foldseek(default)
+edf	foldseek_default.scop40.scop40x8.scop40	SCOP40x8	black	dashdot
+edf	foldseek_default.scop40.scop40.scop40	SCOP40	black	solid
+edf	foldseek_default.scop40.scop40.scop40c	SCOP40c	cyan	solid	
+edf	foldseek_default.scop40n2.scop40n2.scop40	SCOP40/2	magenta	solid
+edf	foldseek_default.scop40n4.scop40n4.scop40	SCOP40/4	magenta	dashed
+edf	foldseek_default.scop40sf2.scop40sf2.scop40	SCOP40/SF2	orange	solid
+edf	foldseek_default.scop40sf4.scop40sf4.scop40	SCOP40/SF4	orange	dashed
+edf	foldseek_maxseqs100.scop40.scop40.scop40	r100	lime	solid
+minscore	-1
+maxscore	3
+yrange	0	1	1e-3	1

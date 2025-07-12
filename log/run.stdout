@@ -1,0 +1,117 @@
+Skipping tm and dali download
+../big_dbs/foldseek/scop40/cath40 exists and will be overwritten
+createdb ../big_cath40pdb ../big_dbs/foldseek/scop40/cath40 
+
+MMseqs Version:             	941cd33ff0771cd2e3f144e3293e22a2b87e9fda
+Use GPU                     	0
+Path to ProstT5             	
+Chain name mode             	0
+Createdb extraction mode    	0
+Interface distance threshold	8
+Write mapping file          	0
+Mask b-factor threshold     	0
+Coord store mode            	2
+Write lookup file           	1
+Input format                	0
+File Inclusion Regex        	.*
+File Exclusion Regex        	^$
+Threads                     	32
+Verbosity                   	3
+
+Output file: ../big_dbs/foldseek/scop40/cath40
+[=================================================================] 34.65K 26s 95ms
+Time for merging to cath40_ss: 0h 0m 0s 218ms
+Time for merging to cath40_h: 0h 0m 0s 128ms
+Time for merging to cath40_ca: 0h 0m 0s 370ms
+Time for merging to cath40: 0h 0m 0s 297ms
+Ignore 0 out of 34649.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 36s 224ms
+
+reseek v2.5.i86linux64 [5928416]
+(C) Copyright 2024 Robert C. Edgar
+
+
+reseek v2.5.i86linux64 [5928416]
+(C) Copyright 2024 Robert C. Edgar
+
+../big_dbs/foldseek/scop40/scop40 exists and will be overwritten
+createdb ../big_scop40pdb ../big_dbs/foldseek/scop40/scop40 
+
+MMseqs Version:             	941cd33ff0771cd2e3f144e3293e22a2b87e9fda
+Use GPU                     	0
+Path to ProstT5             	
+Chain name mode             	0
+Createdb extraction mode    	0
+Interface distance threshold	8
+Write mapping file          	0
+Mask b-factor threshold     	0
+Coord store mode            	2
+Write lookup file           	1
+Input format                	0
+File Inclusion Regex        	.*
+File Exclusion Regex        	^$
+Threads                     	32
+Verbosity                   	3
+
+Output file: ../big_dbs/foldseek/scop40/scop40
+[=================================================================] 11.21K 9s 872ms
+Time for merging to scop40_ss: 0h 0m 0s 140ms
+Time for merging to scop40_h: 0h 0m 0s 84ms
+Time for merging to scop40_ca: 0h 0m 0s 208ms
+Time for merging to scop40: 0h 0m 0s 180ms
+Ignore 0 out of 11211.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 14s 50ms
+
+reseek v2.5.i86linux64 [5928416]
+(C) Copyright 2024 Robert C. Edgar
+
+
+reseek v2.5.i86linux64 [5928416]
+(C) Copyright 2024 Robert C. Edgar
+
+
+reseek v2.5.i86linux64 [5928416]
+(C) Copyright 2024 Robert C. Edgar
+
+../big_dbs/foldseek/scop95/scop95 exists and will be overwritten
+createdb ../big_scop95pdb ../big_dbs/foldseek/scop95/scop95 
+
+MMseqs Version:             	941cd33ff0771cd2e3f144e3293e22a2b87e9fda
+Use GPU                     	0
+Path to ProstT5             	
+Chain name mode             	0
+Createdb extraction mode    	0
+Interface distance threshold	8
+Write mapping file          	0
+Mask b-factor threshold     	0
+Coord store mode            	2
+Write lookup file           	1
+Input format                	0
+File Inclusion Regex        	.*
+File Exclusion Regex        	^$
+Threads                     	32
+Verbosity                   	3
+
+Output file: ../big_dbs/foldseek/scop95/scop95
+[=================================================================] 35.49K 1m 18s 85ms
+Time for merging to scop95_ss: 0h 0m 0s 402ms
+Time for merging to scop95_h: 0h 0m 0s 268ms
+Time for merging to scop95_ca: 0h 0m 0s 703ms
+Time for merging to scop95: 0h 0m 0s 406ms
+Ignore 0 out of 91584.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 1m 30s 504ms
+
+reseek v2.5.i86linux64 [5928416]
+(C) Copyright 2024 Robert C. Edgar
+
+
+reseek v2.5.i86linux64 [5928416]
+(C) Copyright 2024 Robert C. Edgar
+
+
+reseek v2.5.i86linux64 [5928416]
+(C) Copyright 2024 Robert C. Edgar
+

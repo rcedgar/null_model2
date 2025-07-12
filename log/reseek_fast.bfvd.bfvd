@@ -1,0 +1,14 @@
+
+reseek v2.5.i86linux64 [aa3c1f9]
+/mnt/c/src/reseek/github_releases/reseek-v2.5-linux-x86 -search ../big_dbs/reseek/bfvd.bca -db ../big_dbs/reseek/bfvd.bca -nochainchar -output ../big_hits/reseek_fast.bfvd.bfvd -dbsize 11211 -fast -evalue 10 -columns query+target+evalue+dpscore+newts -log ../log/reseek_fast.bfvd.bfvd 
+Started Sat Jun  7 09:48:50 2025
+MuFilterTsvFN=/tmp/rce.f72d8fa8.tmp
+
+
+myutils.cpp(202): 
+Sat Jun  7 09:49:17 2025
+/mnt/c/src/reseek/github_releases/reseek-v2.5-linux-x86 -search ../big_dbs/reseek/bfvd.bca -db ../big_dbs/reseek/bfvd.bca -nochainchar -output ../big_hits/reseek_fast.bfvd.bfvd -dbsize 11211 -fast -evalue 10 -columns query+target+evalue+dpscore+newts -log ../log/reseek_fast.bfvd.bfvd
+Elapsed time: 27.0s
+
+---Fatal error---
+prefiltermu.cpp(239) assert failed: QSeqIdx < UINT16_MAX

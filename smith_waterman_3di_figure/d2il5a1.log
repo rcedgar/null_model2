@@ -1,0 +1,9 @@
+
+reseek v2.5.i86linux64 [5928416]
+reseek -pdb2ss /mnt/c/int/reseek_bench/scop40pdb/pdb/d2il5a1.pdb -log d2il5a1.log 
+Started Sun May 25 10:25:10 2025
+d2il5a1_A   SecStr  ~~~~ssssssssss~~~~thhhhhhh~~thhhhhtth~~th~~~~ssss~~t~~sssssssstht~ssssssss~~s~th~~ssss~t~tttsssssssssss~tt~~~ssssssssssss~t~s~thhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh~~
+
+Elapsed time 00:00
+Max memory 0.0b
+Finished Sun May 25 10:25:10 2025

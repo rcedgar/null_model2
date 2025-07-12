@@ -1,0 +1,10 @@
+distname	C_score_F	Reseek(modes)
+axislabels	TS	C(score|F)
+
+edf	reseek_verysensitive_ts.scop40.scop40.scop40	SCOP40V	black	solid
+edf	reseek_sensitive_ts.scop40.scop40.scop40	SCOP40x8s	green	dashed
+edf	reseek_fast_ts.scop40.scop40.scop40	SCOP40x8f	orange	dashdot
+
+minscore	0.05
+maxscore	0.3
+yrange	0	1	1e-3	1

@@ -1,0 +1,9 @@
+distname	P_F_score	Foldseek(maxseqs)
+axislabels	TS	P(F|TS)
+edf	foldseek_maxseqs4.scop40.scop40.scop40	size=4	black	solid
+edf	foldseek_maxseqs32.scop40.scop40.scop40	size=32	gray	solid
+edf	foldseek_maxseqs128.scop40.scop40.scop40	size=128	gray	dashed
+edf	foldseek_maxseqs512.scop40.scop40.scop40	size=512	gray	dotted
+yrange	0	0.8	1e-2	1
+minscore	-1
+maxscore	4

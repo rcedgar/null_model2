@@ -1,0 +1,13 @@
+
+reseek v2.5.i86linux64 [aa3c1f9]
+/mnt/c/src/reseek/github_releases/reseek-v2.5-linux-x86 -search ../big_data/scop40c.bca -db ../big_data/scop40c.bca -nochainchar -output ../big_hits/reseek_verysensitive.scop40c -dbsize 10000 -verysensitive -evalue 9999 -columns query+target+evalue+dpscore+newts -log ../log/reseek_verysensitive.scop40c 
+Started Tue May 20 18:20:44 2025
+
+
+pdbfilescanner.cpp(57): 
+Tue May 20 18:20:44 2025
+/mnt/c/src/reseek/github_releases/reseek-v2.5-linux-x86 -search ../big_data/scop40c.bca -db ../big_data/scop40c.bca -nochainchar -output ../big_hits/reseek_verysensitive.scop40c -dbsize 10000 -verysensitive -evalue 9999 -columns query+target+evalue+dpscore+newts -log ../log/reseek_verysensitive.scop40c
+Elapsed time: 0s
+
+---Fatal error---
+Invalid file/pathname '../big_data/scop40c.bca'

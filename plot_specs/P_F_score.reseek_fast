@@ -1,0 +1,10 @@
+distname	P_F_score	Reseek(fast)
+axislabels	TS	P(F|score)
+edf	reseek_fast_ts.scop40.scop40x8.scop40	SCOP40x8	magenta	dashed
+edf	reseek_fast_ts.scop40.scop40.scop40	SCOP40	black	solid
+edf	reseek_fast_ts.scop40.scop40.scop40c	SCOP40c	cyan	solid
+edf	reseek_fast_ts.scop40sf2.scop40sf2.scop40	SCOP40/SF2	orange	solid
+edf	reseek_fast_ts.scop40sf4.scop40sf4.scop40	SCOP40/SF4	orange	dashed
+yrange	0	0.75	5e-3	1
+minscore	0.05
+maxscore	0.3

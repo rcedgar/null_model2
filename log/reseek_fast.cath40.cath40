@@ -1,0 +1,10 @@
+
+reseek v2.6.i86linux64 [5032f90]
+../bin/reseek -search ../big_dbs/reseek/cath40.bca -db ../big_dbs/reseek/cath40.bca -output ../big_hits/reseek_fast.cath40.cath40 -mints 0.05 -fast -columns query+target+evalue+dpscore+newts -log ../log/reseek_fast.cath40.cath40 
+Started Mon Jun 23 03:18:16 2025
+MuFilterTsvFN=/tmp/rce.66d57cad.tmp
+Post-mu 358 secs
+
+Elapsed time 08:35
+Max memory 15.6Gb
+Finished Mon Jun 23 03:26:51 2025

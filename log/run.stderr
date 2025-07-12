@@ -1,0 +1,79 @@
+[convert ../big_cath40pdb]
+00:00 2.2Mb Starting 32 threads (32 CPU cores)
+00:00 2.2Mb 0 chains00:13 7.0Mb 1 chains00:14  37Mb 2273 chains00:15  43Mb 5808 chains00:16  48Mb 9342 chains00:17  48Mb 12.8k chains00:18  49Mb 16.4k chains00:19  51Mb 19.9k chains00:20  52Mb 23.4k chains00:21  54Mb 26.9k chains00:22  56Mb 30.1k chains00:23  59Mb 33.3k chains                        
+00:23  64Mb 34647 / 34647 converted (34.6k, 100.0%)
+
+00:23  61Mb (max 64Mb) finished
+[convert_foldseekdb ../big_dbs/foldseek/scop40/cath40]
+00:00 2.3Mb Read labels
+00:00 3.5Mb Read aa seqs
+00:00  11Mb Read 3Di seqs
+00:00  18Mb Check lookup
+00:00  18Mb Check source
+00:00  18Mb Read CA coords
+00:00  51Mb Read CA index
+00:00  51Mb  0.00289% Write output files00:01  51Mb   15.4% Write output files  00:02  51Mb   71.2% Write output files00:02  51Mb  100.0% Write output files
+                                      
+00:02  48Mb (max 51Mb) finished
+[convert ../big_scop40pdb]
+00:00 2.3Mb Starting 32 threads (32 CPU cores)
+00:00 2.3Mb 0 chains00:04 3.6Mb 1 chains00:05  35Mb 1370 chains00:06  46Mb 4427 chains00:07  49Mb 7417 chains00:08  51Mb 10.5k chains                        
+00:08  24Mb 11211 / 11211 converted (11.2k, 100.0%)
+
+00:08  22Mb (max 51Mb) finished
+[convert_foldseekdb ../big_dbs/foldseek/scop40/scop40]
+00:00 2.3Mb Read labels
+00:00 2.7Mb Read aa seqs
+00:00 5.1Mb Read 3Di seqs
+00:00 7.6Mb Check lookup
+00:00 7.6Mb Check source
+
+
+convert_foldseekdb.cpp(121): 
+WARNING: 7831 errs checking lookup file '../big_dbs/foldseek/scop40/scop40.source', see log
+
+00:00 7.6Mb Read CA coords
+00:00  19Mb Read CA index
+00:00  20Mb  0.00892% Write output files00:01  20Mb   10.1% Write output files  00:01  20Mb  100.0% Write output files
+                                      
+00:01  19Mb (max 20Mb) finished
+[convert ../big_data/scop40.fs.cal]
+00:00 2.3Mb Starting 32 threads (32 CPU cores)
+00:00 2.3Mb 0 chains00:01  36Mb 6184 chains                       
+00:01 3.3Mb 11211 / 11211 converted (11.2k, 100.0%)
+
+00:01 2.9Mb (max 36Mb) finished
+[convert ../big_scop95pdb]
+00:00 2.3Mb Starting 32 threads (32 CPU cores)
+00:00 2.3Mb 0 chains00:01 3.1Mb 1 chains00:02  84Mb 519 chains00:03 147Mb 1396 chains00:04 178Mb 2319 chains00:05 202Mb 3245 chains00:06 213Mb 4138 chains00:07 227Mb 4785 chains00:08 232Mb 5573 chains00:09 238Mb 6267 chains00:10 247Mb 7092 chains00:11 252Mb 7925 chains00:12 261Mb 8889 chains00:13 271Mb 9836 chains00:14 273Mb 10.8k chains00:15 273Mb 11.7k chains00:16 281Mb 12.7k chains00:17 284Mb 13.6k chains00:18 285Mb 14.5k chains00:19 299Mb 15.3k chains00:20 301Mb 16.2k chains00:21 338Mb 17.0k chains00:22 340Mb 17.8k chains00:23 347Mb 18.6k chains00:24 361Mb 19.5k chains00:25 373Mb 20.3k chains00:26 373Mb 21.3k chains00:27 373Mb 22.2k chains00:28 373Mb 23.0k chains00:29 374Mb 24.0k chains00:30 374Mb 24.9k chains00:31 376Mb 25.8k chains00:32 378Mb 27.2k chains00:33 378Mb 28.1k chains00:34 379Mb 29.0k chains00:35 379Mb 29.9k chains00:36 379Mb 30.7k chains00:37 379Mb 31.7k chains00:38 379Mb 32.2k chains00:39 379Mb 32.9k chains00:40 382Mb 33.8k chains00:41 386Mb 34.6k chains00:42 386Mb 35.6k chains                        
+00:42 370Mb 35912 / 35912 converted (35.9k, 100.0%)
+
+00:42 370Mb (max 386Mb) finished
+[convert_foldseekdb ../big_dbs/foldseek/scop95/scop95]
+00:00 1.6Mb Read labels
+00:00 7.1Mb Read aa seqs
+00:00  22Mb Read 3Di seqs
+00:00  38Mb Check lookup
+
+
+convert_foldseekdb.cpp(121): 
+WARNING: 58975 errs checking lookup file '../big_dbs/foldseek/scop95/scop95.lookup', see log
+
+00:00  38Mb Check source
+
+
+convert_foldseekdb.cpp(121): 
+WARNING: 91305 errs checking lookup file '../big_dbs/foldseek/scop95/scop95.source', see log
+
+00:00  38Mb Read CA coords
+00:00 105Mb Read CA index
+00:00 106Mb  0.00109% Write output files00:01 106Mb    5.4% Write output files  00:02 106Mb   36.6% Write output files00:03 106Mb   60.4% Write output files00:04 106Mb   86.0% Write output files00:04 106Mb  100.0% Write output files
+                                      
+00:04  97Mb (max 106Mb) finished
+[convert ../big_data/scop95.fs.cal]
+00:00 2.2Mb Starting 32 threads (32 CPU cores)
+00:00 6.4Mb 0 chains00:01  37Mb 16.6k chains00:02  40Mb 50.2k chains00:03  43Mb 80.8k chains                        
+00:03 9.9Mb 91584 / 91584 converted (91.6k, 100.0%)
+
+00:03 5.9Mb (max 43Mb) finished
+./run_.bash: line 8: ./setup_scop40_x8.bash: No such file or directory

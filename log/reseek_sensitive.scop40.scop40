@@ -1,0 +1,19 @@
+
+reseek v2.6.i86linux64 [5032f90]
+../bin/reseek -search ../big_dbs/reseek/scop40.bca -db ../big_dbs/reseek/scop40.bca -output ../big_hits/reseek_sensitive.scop40.scop40 -mints 0.05 -sensitive -columns query+target+evalue+dpscore+newts -log ../log/reseek_sensitive.scop40.scop40 
+Started Mon Jun 23 05:45:38 2025
+
+     04:26  Search time
+    687.7k  Hits (max E-value 10)
+     11.2k  DB chains
+     11.2k  Query chains
+      42.0  Chains/sec
+    472.5k  Comparisons/sec
+     14.8k  Comparisons/sec/thread (32 threads)
+DSSAligner::Stats() alns 124.4M, mufil 124355952/113421276 91.2% (sat 52464) xfil 0.0%
+MKF 1341840 pairs, 140748 with HSPs (10.5%), box alns 0 fract 0, hsps/chain 1.2
+QP cache hits 0, misses 0
+
+Elapsed time 04:27
+Max memory 192Mb
+Finished Mon Jun 23 05:50:05 2025

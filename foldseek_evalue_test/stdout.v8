@@ -1,0 +1,108 @@
+v8.tsv exists and will be overwritten
+easy-search d1h1oa2.pdb AF-A0A6N9R5S2-F1-model_v4.pdb v8.tsv /tmp -e 10 --format-output query,target,evalue 
+
+MMseqs Version:              	ef4e960ab84fc502665eb7b84573dfff9c2aa89d
+Seq. id. threshold           	0
+Coverage threshold           	0
+Coverage mode                	0
+Max reject                   	2147483647
+Max accept                   	2147483647
+Add backtrace                	false
+TMscore threshold            	0
+TMalign hit order            	0
+TMalign fast                 	1
+Preload mode                 	0
+Threads                      	32
+Verbosity                    	3
+LDDT threshold               	0
+Sort by structure bit score  	1
+Alignment type               	2
+Substitution matrix          	aa:3di.out,nucl:3di.out
+Alignment mode               	3
+Alignment mode               	0
+E-value threshold            	10
+Min alignment length         	0
+Seq. id. mode                	0
+Alternative alignments       	0
+Max sequence length          	65535
+Compositional bias           	1
+Compositional bias           	1
+Gap open cost                	aa:10,nucl:10
+Gap extension cost           	aa:1,nucl:1
+Compressed                   	0
+Seed substitution matrix     	aa:3di.out,nucl:3di.out
+Sensitivity                  	9.5
+k-mer length                 	6
+Target search mode           	0
+k-score                      	seq:2147483647,prof:2147483647
+Max results per query        	1000
+Split database               	0
+Split mode                   	2
+Split memory limit           	0
+Diagonal scoring             	true
+Exact k-mer matching         	0
+Mask residues                	0
+Mask residues probability    	0.99995
+Mask lower case residues     	1
+Minimum diagonal score       	30
+Selected taxa                	
+Spaced k-mers                	1
+Spaced k-mer pattern         	
+Local temporary path         	
+Exhaustive search mode       	false
+Prefilter mode               	0
+Search iterations            	1
+Remove temporary files       	true
+MPI runner                   	
+Force restart with latest tmp	false
+Cluster search               	0
+Chain name mode              	0
+Write mapping file           	0
+Mask b-factor threshold      	0
+Coord store mode             	2
+Write lookup file            	1
+Tar Inclusion Regex          	.*
+Tar Exclusion Regex          	^$
+File Inclusion Regex         	.*
+File Exclusion Regex         	^$
+Alignment format             	0
+Format alignment output      	query,target,evalue
+Database output              	false
+Greedy best hits             	false
+
+createdb d1h1oa2.pdb /tmp/10631559755729145203/query --chain-name-mode 0 --write-mapping 0 --mask-bfactor-threshold 0 --coord-store-mode 2 --write-lookup 1 --tar-include '.*' --tar-exclude '^$' --file-include '.*' --file-exclude '^$' --threads 32 -v 3 
+
+Output file: /tmp/10631559755729145203/query
+[=================================================================] 1 0s 20ms
+Time for merging to query_ss: 0h 0m 0s 8ms
+Time for merging to query_h: 0h 0m 0s 0ms
+Time for merging to query_ca: 0h 0m 0s 0ms
+Time for merging to query: 0h 0m 0s 0ms
+Ignore 0 out of 1.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 0s 60ms
+createdb AF-A0A6N9R5S2-F1-model_v4.pdb /tmp/10631559755729145203/target --chain-name-mode 0 --write-mapping 0 --mask-bfactor-threshold 0 --coord-store-mode 2 --write-lookup 1 --tar-include '.*' --tar-exclude '^$' --file-include '.*' --file-exclude '^$' --threads 32 -v 3 
+
+Output file: /tmp/10631559755729145203/target
+[=================================================================] 1 0s 20ms
+Time for merging to target_ss: 0h 0m 0s 9ms
+Time for merging to target_h: 0h 0m 0s 0ms
+Time for merging to target_ca: 0h 0m 0s 0ms
+Time for merging to target: 0h 0m 0s 0ms
+Ignore 0 out of 1.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 0s 52ms
+Create directory /tmp/10631559755729145203/search_tmp
+search /tmp/10631559755729145203/query /tmp/10631559755729145203/target /tmp/10631559755729145203/result /tmp/10631559755729145203/search_tmp --alignment-mode 3 -e 10 --comp-bias-corr 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 -s 9.5 -k 6 --mask 0 --mask-prob 0.99995 --remove-tmp-files 1 
+
+prefilter /tmp/10631559755729145203/query_ss /tmp/10631559755729145203/target_ss /tmp/10631559755729145203/search_tmp/2427632824001479208/pref --sub-mat 'aa:3di.out,nucl:3di.out' --seed-sub-mat 'aa:3di.out,nucl:3di.out' -s 9.5 -k 6 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 1000 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 0.15 --diag-score 1 --exact-kmer-matching 0 --mask 0 --mask-prob 0.99995 --mask-lower-case 1 --min-ungapped-score 30 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 32 --compressed 0 -v 3 
+
+Query database size: 1 type: Aminoacid
+Estimated memory consumption: 977M
+Target database size: 1 type: Aminoacid
+Index table k-mer threshold: 78 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 1 0s 21ms
+Index table: Masked residues: 0
+Index table: fill
+[=================================================================

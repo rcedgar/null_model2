@@ -1,0 +1,10 @@
+
+reseek v2.6.i86linux64 [f00b799]
+reseek -search ../big_dbs/reseek/scop40.bca -db ../big_dbs/reseek/scop40.bca -output ../big_hits/reseek_rsbsize1024.scop40.scop40 -fast -mints 0.05 -rsb_size 1024 -columns query+target+evalue+dpscore+newts -log ../log/rsbsize1024 
+Started Sun Jun 22 07:45:30 2025
+MuFilterTsvFN=/tmp/rce.68414306.tmp
+Post-mu 89 secs
+
+Elapsed time 01:46
+Max memory 5.5Gb
+Finished Sun Jun 22 07:47:16 2025

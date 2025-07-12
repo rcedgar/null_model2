@@ -1,0 +1,10 @@
+
+reseek v2.6.i86linux64 [5032f90]
+../bin/reseek -search ../big_dbs/reseek/scop40.bca -db ../big_dbs/reseek/scop40_div2.bca -output ../big_hits/reseek_fast.scop40.scop40_div2 -mints 0.05 -fast -columns query+target+evalue+dpscore+newts -log ../log/reseek_fast.scop40.scop40_div2 
+Started Mon Jun 23 05:04:07 2025
+MuFilterTsvFN=/tmp/rce.b072460c.tmp
+Post-mu 109 secs
+
+Elapsed time 02:03
+Max memory 5.5Gb
+Finished Mon Jun 23 05:06:10 2025

@@ -1,0 +1,34 @@
+#!/bin/bash -e
+
+########################################
+# MUST create and activate null_model
+# See bash/create_conda_environment.bash 
+########################################
+
+name=`echo $0 | sed "-es/.*run_//" | sed "-es/\.bash//"`
+rundir=../runs/$name
+
+rm -rf $rundir
+mkdir -p $rundir
+
+uname -a > $rundir/date.txt
+echo start `date` >> $rundir/date.txt
+
+rm -rf ../fit_loglin
+rm -rf ../predict_FPEPQsb
+
+git log \
+	| head -n 20 \
+	> $rundir/git_log.txt
+
+./fit_loglins.bash
+./make_fitted_params.bash
+./predict_FPEPQsb.bash
+
+cp -vr ../fit_loglin/ $rundir
+cp -vr ../predict_FPEPQsb/ $rundir
+cp -vr ../summary_pngs/ $rundir
+cp -vr ../bash/ $rundir
+cp -vr ../py/ $rundir
+
+echo done `date` >> $rundir/date.txt

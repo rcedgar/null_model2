@@ -1,0 +1,19 @@
+distname	P_score_F	Reseek(sens.)
+axislabels	TS	P(score|F)
+
+edf	reseek_sensitive_ts.scop40.scop40x8.scop40	SCOP40x8	black	dashdot
+
+edf	reseek_sensitive_ts.cath40.cath40.cath40	CATH40	chocolate	solid
+edf	reseek_sensitive_ts.scop40.scop40.scop40	SCOP40	black	solid
+edf	reseek_sensitive_ts.scop40.scop40.scop40c	SCOP40c	cyan	solid
+edf	reseek_sensitive_ts.scop95.scop95.scop95	SCOP95	blue	solid
+
+edf	reseek_sensitive_ts.scop40n2.scop40n2.scop40	SCOP40/2	magenta	solid
+edf	reseek_sensitive_ts.scop40n4.scop40n4.scop40	SCOP40/4	magenta	dashed
+
+edf	reseek_sensitive_ts.scop40sf2.scop40sf2.scop40	SCOP40/SF2	orange	solid
+edf	reseek_sensitive_ts.scop40sf4.scop40sf4.scop40	SCOP40/SF4	orange	dashed
+
+minscore	0.05
+maxscore	0.3
+yrange	0	0.5	1e-3	1

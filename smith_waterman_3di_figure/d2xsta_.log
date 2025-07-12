@@ -1,0 +1,9 @@
+
+reseek v2.5.i86linux64 [5928416]
+reseek -pdb2ss /mnt/c/int/reseek_bench/scop40pdb/pdb/d2xsta_.pdb -log d2xsta_.log 
+Started Sun May 25 10:24:56 2025
+d2xsta__A   SecStr  ~~ss~~t~ss~hh~~~~sss~~ss~~~thhhh~~h~~~~ssssssssth~~ssssss~t~~sssssss~t~t~~sss~ht~~~~ss~~~s~tht~ssssssss~ht~ssssssss~~t~~s~thhhhhhhhhhhht~~~th~~sss~~~
+
+Elapsed time 00:00
+Max memory 0.0b
+Finished Sun May 25 10:24:56 2025

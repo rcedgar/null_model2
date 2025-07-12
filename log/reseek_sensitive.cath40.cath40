@@ -1,0 +1,19 @@
+
+reseek v2.6.i86linux64 [5032f90]
+../bin/reseek -search ../big_dbs/reseek/cath40.bca -db ../big_dbs/reseek/cath40.bca -output ../big_hits/reseek_sensitive.cath40.cath40 -mints 0.05 -sensitive -columns query+target+evalue+dpscore+newts -log ../log/reseek_sensitive.cath40.cath40 
+Started Mon Jun 23 03:26:52 2025
+
+     29:03  Search time
+      5.7M  Hits (max E-value 10)
+     34.6k  DB chains
+     34.6k  Query chains
+      19.0  Chains/sec
+    688.7k  Comparisons/sec
+     21.5k  Comparisons/sec/thread (32 threads)
+DSSAligner::Stats() alns 1.2G, mufil 1197333006/1110603312 92.8% (sat 334212) xfil 0.0%
+MKF 3116295 pairs, 352152 with HSPs (11.3%), box alns 0 fract 0, hsps/chain 1.3
+QP cache hits 0, misses 0
+
+Elapsed time 29:04
+Max memory 295Mb
+Finished Mon Jun 23 03:55:56 2025

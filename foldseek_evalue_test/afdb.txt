@@ -1,0 +1,2 @@
+# grep "^d1h1oa2.*AF-A0A6N9R5S2-F1-model_v4" foldseek_exhaustive_scop40_vs_afdb.tsv
+d1h1oa2/a.3.1.4 AF-A0A6N9R5S2-F1-model_v4       8.044E-05       222     1.000

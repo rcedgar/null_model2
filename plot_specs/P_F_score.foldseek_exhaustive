@@ -1,0 +1,13 @@
+distname	P_F_score	Foldseek(ex.)
+edf	foldseek_exhaustive.scop40.scop40x8.scop40	SCOP40x8	magenta	dashed
+edf	foldseek_exhaustive.scop40.scop40.scop40	SCOP40	black	solid
+edf	foldseek_exhaustive.scop40.scop40.scop40c	SCOP40c	cyan	solid
+edf	foldseek_exhaustive.scop40sf2.scop40sf2.scop40	SCOP40/SF2	black	dashed
+edf	foldseek_exhaustive.scop40sf4.scop40sf4.scop40	SCOP40/SF4	black	dotted
+
+edf	foldseek_exhaustive.scop40n2.scop40n2.scop40	SCOP40/2	black	dashed
+edf	foldseek_exhaustive.scop40n4.scop40n4.scop40	SCOP40/4	black	dotted
+minscore	0
+maxscore	6
+
+axislabels	-log10(E)	P(F|score)

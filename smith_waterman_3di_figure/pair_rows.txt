@@ -1,0 +1,19 @@
+ssss~~t~~sssssssstht~ssssssss~~s~th~~sss---------s~t~tttssss
+TNKEIEADVKEGGKYRIVDDDQQRNGKVVVNVIEGIYESL---------IGXPSETQDDV
+wdwdpdAQTKIWTWGDDPPRDIDIWMWGWHDDDHSFWTWI---------WGDYVVADTKI  d2il5a1
+|+|| | | ||||| ++   |+|||++  ||||+ +|| +         ++|   +  |+
+WGWDADPQQKIWTWIGGC--dtdiwif--hddddhQWTATVVQQFRIKGFRDDPSQF-KT  d2xsta_
+RAIRPTEEGGLHVHMEFP--NQVDAEY--LKVGSEGHFRVPALGYLDVRIVDTDYSS-FA
+ssssssth~~ssssss~t--~~sssss--ss~t~t~~sss~ht~~~~ss~~~s~tht-~s
+ssss~~t~~sssssssstht~ssssssss~~s~th~~sss---------s~t~tttssss
+
+
+IEVEFFERETGGTQXLFYYRSLVEKERRFTNLEYKQKKKEY
+KIWTWDQDPRGHTmiiimimdidddddpddpVNvvvvsvvv  d2il5a1
+|||||++|||+ +++|++|+   |+|+    | ||   |||
+KIWTWGADPRDtmimitiitRDNDHDpvsvvvhvvppvvvv  d2xsta_
+VLYIYKELEGALSTMVQLYSRTQDVSPQALKSFQDFYPTLG
+sssssss~ht~ssssssss~~t~~s~thhhhhhhhhhhht~
+Score 992, Identities 40/101 (39.6%), Positives 64/101 (63.4%)
+Segmasked d2il5a1 88/162 (54.3%))
+Segmasked d2xsta_ 74/149 (49.7%))

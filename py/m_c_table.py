@@ -1,0 +1,10 @@
+algo_refdb2m_c = {}
+algo_refdb2m_c[("blastp", "scop40")] = (0.09978, -4.944)
+algo_refdb2m_c[("dali", "scop40")] = (0.2047, -0.07928)
+algo_refdb2m_c[("dali", "scop40c")] = (0.2573, -0.2827)
+algo_refdb2m_c[("foldseek", "scop40")] = (0.4325, 0.8692)
+algo_refdb2m_c[("foldseek", "scop40c")] = (0.6535, 0.6762)
+algo_refdb2m_c[("reseek", "scop40")] = (14.96, -0.2917)
+algo_refdb2m_c[("reseek", "scop40c")] = (21.75, -1.123)
+algo_refdb2m_c[("tm", "scop40")] = (8.654, -1.864)
+algo_refdb2m_c[("tm", "scop40c")] = (10.09, -2.409)

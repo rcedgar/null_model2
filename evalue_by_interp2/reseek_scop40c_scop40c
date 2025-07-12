@@ -1,0 +1,9 @@
+Evalue	E	P(F|score)	P(T|score)
+1.00e-05	1.13e-07	1.05e-06	1.000
+1.00e-04	2.79e-06	1.04e-05	1.000
+0.001	3.91e-05	0.000103	1.000
+0.01	6.59e-04	0.00102	0.999
+0.1	0.0102	0.0101	0.990
+1	0.142	0.104	0.896
+10	3.53	0.772	0.228
+# ../py/evalue_by_interp2.py --ref_dbsize 11211 --edf_ref ../edf/reseek.scop40c --edf_target ../edf/reseek.scop40c --lo 1e-5 --hi 11 --m -0.9962 --c -0.9978
