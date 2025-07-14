@@ -25,17 +25,6 @@ colnr = Args.column - 1
 fin = open(Args.input)
 fout = open(Args.output, "w")
 
-def fmt(E, Ec):
-	if E > 10: 
-		s = "  %7.7s" % ">10"
-	else:
-		s = "  %7.2g" % E
-	if Ec > 10: 
-		s += "  %7.7s" % ">10"
-	else:
-		s += "  %7.2g" % Ec
-	return s
-
 hdr = fin.readline()[:-1] + "\tE-value_null\n"
 fout.write(hdr)
 
