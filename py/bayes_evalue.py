@@ -1,11 +1,8 @@
-import math
 from fitted_params import *
-from dbname2size import dbname2size
 
 def get_m_c(algo, refdb):
 	assert refdb == "scop40" or refdb == "scop40c"
 	m, c = algo_refdb2m_c[(algo, refdb)]
-#	print("m,c", m, c)
 	return m, c
 
 def estimate_C(score, m, c):
