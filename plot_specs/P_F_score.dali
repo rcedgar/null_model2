@@ -1,11 +1,10 @@
-distname	P_F_score	DALI
+distname	P_T_score	DALI
 axislabels	Z score	P(F|score)
 edf	dali.scop40.scop40.scop40	SCOP40	black	solid
-edf	dali.scop40.scop40.scop40c	SCOP40c	cyan	solid
 edf	dali.scop40sf2.scop40sf2.scop40	SCOP40/SF2	orange	solid
 edf	dali.scop40sf4.scop40sf4.scop40	SCOP40/SF4	orange	dotted
 edf	dali.scop40n2.scop40n2.scop40	SCOP40/2	blue	solid
 edf	dali.scop40n4.scop40n4.scop40	SCOP40/4	blue	dotted
-yrange	0	0.8	1e-2	1
-minscore	6
-maxscore	18
+yrange	0	1	0.1	1
+minscore	4
+maxscore	14

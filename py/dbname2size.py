@@ -1,5 +1,6 @@
 dbname2size = {}
 
+dbname2size["afdb"] = 214000000
 dbname2size["afdb50"] = 53665860
 dbname2size["afdb100k"] = 100000
 dbname2size["pdb"] = 884129
