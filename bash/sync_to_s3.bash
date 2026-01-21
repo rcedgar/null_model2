@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-name=null_model
+name=null_model2
 
 now=`date "+%Y-%m-%d-%H_%S"`
 
